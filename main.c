@@ -31,7 +31,7 @@ int login() {
     printf("Masukkan password Anda: ");
     scanf("%s", password);
 
-    if ((strcmp(username, "kelompok4") == 0) && (strcmp(password, "admin123") == 0)) {
+    if ((strcmp(username, "admin") == 0) && (strcmp(password, "admin123") == 0)) {
         printf("Selamat, Anda berhasil login!\n\n");
         return 1;
     } else {
