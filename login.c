@@ -7,9 +7,9 @@ int login() {
     const char correct_pass[] = "1234";
 
     printf("Masukkan Username: ");
-    scanf("%19s", username); // Use %19s to prevent buffer overflow
+    scanf("%s", username);
     printf("Masukkan Password: ");
-    scanf("%19s", password); // Use %19s to prevent buffer overflow
+    scanf("%s", password);
 
     if (strcmp(username, correct_user) == 0 && strcmp(password, correct_pass) == 0) {
         printf("Login berhasil!\n");
