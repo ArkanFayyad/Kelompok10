@@ -19,3 +19,11 @@ int login() {
         return 0;
     }
 }
+int main() {
+    if (login()) {
+        printf("Anda telah masuk ke sistem.\n");
+    } else {
+        printf("Gagal login. Program selesai.\n");
+    }
+    return 0;
+}
